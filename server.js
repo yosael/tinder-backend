@@ -7,8 +7,6 @@ import Cards from './dbCards.js';
 // App Config
 const app = express();
 const port = process.env.PORT || 8001 ;
-//const connection_url = 'mongodb+srv://admin-yosa:5iKkUTik5J4VHDWc@cluster0.t5q2r.mongodb.net/tinderdb?retryWrites=true&w=majority'
-//const connection_url = process.env.DBURL || 'mongodb+srv://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=false';
 const connection_url = process.env.DBURL || 'mongodb://localhost:27017/tinderdb?retryWrites=true&w=majority';
 
 // Middleware
